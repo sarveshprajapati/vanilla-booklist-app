@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-body">
+        <h1 id="header">My BookList</h1>
+        <div class="bar"></div>
+        <form id="bookform">
+            <div id="formdiv">
+                
+                <input type="text" id="title" class="formInput" placeholder="Title">
+            </div>
+            <div id="formdiv">
+              
+                <input type="text" id="author" class="formInput" placeholder="Author">
+            </div>
+            <div id="formdiv">
+                
+                <input type="text" id="publication" class="formInput" placeholder="Publication">
+            </div>
+            <input type="submit" value="Add Book" class="submit">
+        </form>
+        
+        <table class="table" width="100%">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Publication</th>
+                    <th>UID</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <div class="bar"></div>
+            <tbody id="bookList"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
